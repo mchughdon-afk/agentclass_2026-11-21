@@ -25,10 +25,10 @@ st.set_page_config(
 # Load the JSON file and extract values
 #file_name = 'config.json'
 #with open(file_name, 'r') as file:
-    import streamlit as st
+import streamlit as st
 
-    OPENAI_API_KEY = st.secrets("OPENAI_API_KEY") # Loading the API Key
-    OPENAI_API_BASE = st.secrets("OPENAI_API_BASE") # Loading the API Base Url
+OPENAI_API_KEY = st.secrets("OPENAI_API_KEY") # Loading the API Key
+OPENAI_API_BASE = st.secrets("OPENAI_API_BASE") # Loading the API Base Url
 
 
 # Storing API credentials in environment variables
