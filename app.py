@@ -27,8 +27,8 @@ st.set_page_config(
 #with open(file_name, 'r') as file:
 import streamlit as st
 
-OPENAI_API_KEY = st.secrets("OPENAI_API_KEY") # Loading the API Key
-OPENAI_API_BASE = st.secrets("OPENAI_API_BASE") # Loading the API Base Url
+OPENAI_API_KEY = st.secrets["OPENAI_API_KEY"] # Loading the API Key
+OPENAI_API_BASE = st.secrets["OPENAI_API_BASE"] # Loading the API Base Url
 
 
 # Storing API credentials in environment variables
